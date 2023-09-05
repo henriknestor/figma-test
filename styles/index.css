@@ -12,8 +12,18 @@
     color: #A3DC00;
 }
 
+section {
+    display: inline-block;
+}
+
+img {
+    max-width: 700px;
+    /* My screen was a bit to small, so the image wouldn´t appear next to the text unless I set a max width */
+}
+
 .main-title {
-    max-width: 495px;
+    max-width: 550px;
+    /* By setting max-width to 495, the words "Work" and "Remotely" got separated, so I broadened this up a bit */
     width: 100%;
     margin-top: 203px;
     margin-left: 200px;
